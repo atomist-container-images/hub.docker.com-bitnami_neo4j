@@ -95,6 +95,3 @@ FROM bitnami/neo4j:4.4.4-debian-10-r18
 
 # Tags: 4.4.4-debian-10-r17
 FROM bitnami/neo4j:4.4.4-debian-10-r17
-
-# Tags: 4.4.4-debian-10-r16
-FROM bitnami/neo4j:4.4.4-debian-10-r16
