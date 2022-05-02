@@ -1,12 +1,21 @@
-# Tags: latest, 4.4.6-debian-10-r8, 4.4.6, 4-debian-10, 4
+# Tags: latest, 4.4.6-debian-10-r11, 4.4.6, 4-debian-10, 4
 FROM bitnami/neo4j:latest
-FROM bitnami/neo4j:4.4.6-debian-10-r8
+FROM bitnami/neo4j:4.4.6-debian-10-r11
 FROM bitnami/neo4j:4.4.6
 FROM bitnami/neo4j:4-debian-10
 FROM bitnami/neo4j:4
 
 # Tags: _
 FROM bitnami/neo4j:_
+
+# Tags: 4.4.6-debian-10-r10
+FROM bitnami/neo4j:4.4.6-debian-10-r10
+
+# Tags: 4.4.6-debian-10-r9
+FROM bitnami/neo4j:4.4.6-debian-10-r9
+
+# Tags: 4.4.6-debian-10-r8
+FROM bitnami/neo4j:4.4.6-debian-10-r8
 
 # Tags: 4.4.6-debian-10-r7
 FROM bitnami/neo4j:4.4.6-debian-10-r7
@@ -86,15 +95,3 @@ FROM bitnami/neo4j:4.4.5-debian-10-r10
 
 # Tags: 4.4.5-debian-10-r9
 FROM bitnami/neo4j:4.4.5-debian-10-r9
-
-# Tags: 4.4.5-debian-10-r8
-FROM bitnami/neo4j:4.4.5-debian-10-r8
-
-# Tags: 4.4.5-debian-10-r7
-FROM bitnami/neo4j:4.4.5-debian-10-r7
-
-# Tags: 4.4.5-debian-10-r6
-FROM bitnami/neo4j:4.4.5-debian-10-r6
-
-# Tags: 4.4.5-debian-10-r5
-FROM bitnami/neo4j:4.4.5-debian-10-r5
